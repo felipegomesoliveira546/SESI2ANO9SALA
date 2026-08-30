@@ -8,7 +8,7 @@ int main(){
 	printf("Escreva os catetos: ");
 	scanf("%f %f" ,&a ,&b);
 	
-	hipotenusa = sqrt(a*a)+(b*b);
+	hipotenusa = sqrt ((a*a)+(b*b));
 	
 	printf ("Resultado da hipotensa: %f" ,hipotenusa);
 	
