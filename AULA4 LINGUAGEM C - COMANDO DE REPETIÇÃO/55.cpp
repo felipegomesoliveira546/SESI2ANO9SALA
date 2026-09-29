@@ -3,16 +3,16 @@
 
 int main(){
 
-    int i, valor, soma = 0;
+    int i, soma = 0, valor;
+	
+	printf("Escreva 10 valores: ");
+	for(i=1 ; i<=10 ; i++){
+		
+		scanf("%d" , &valor);
+		soma+=valor;
+	}
+	printf("Soma: %d\n" ,soma);
+	return 0;
 
-    for (i = 1; i<=10; i++) {
-
-        printf("Escreva 10 valores: ");
-        scanf("%d" , &valor);
-        soma += valor;
-    }
-
-    printf("Soma: %d\n", soma);
-
-    return 0;
+	
 }
